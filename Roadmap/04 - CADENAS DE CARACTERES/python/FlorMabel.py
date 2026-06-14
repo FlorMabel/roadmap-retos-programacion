@@ -142,6 +142,6 @@ def check(escrito1: str, escrito2: str):
 
     print(escrito_dict)
 
-
+#check("reconocer", "reconocer")
 check("reno", "apellido")
 #check("oido", "odio")
