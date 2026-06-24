@@ -70,8 +70,6 @@ class Empleado:
     def print_empleados(self):
         for empleado in self.empleados:
             print(empleado.name)
-
-
 class Gerente(Empleado):
     def coordinacion_proyectos(self):
         print(f"{self.name}, Coordina todos los proyectos de la Empresa")
